@@ -5,20 +5,29 @@
 }
 
 main { 
-    background: red;
+    background: rosybrown;
     width: 80%;
     margin: auto;
 }
 
 .box {
-    width: 30%;
+    width: 32.47%;
     display: inline-block;
     margin: 0.3%;
+    padding-bottom: 5%;
+    position: relative;
 }
 
 img {
     width: 100%;
     height: auto;
+}
+
+.sconto {
+    background: red;
+    position: absolute;
+    bottom: 22%;
+    left: 0;
 }
 
 /*.box {
@@ -28,7 +37,16 @@ img {
     display: inline-block;
 } **/
 
-.price,.info,.brand {
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price,.type,.brand {
     display: block;
+}
+
+.type {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
