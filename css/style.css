@@ -2,3 +2,15 @@ main {
     background: red;
     text-align: center;
 }
+
+.box {
+    display: inline;
+    padding-right: 30px;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.info {
+    position:absolute;
+}
+
