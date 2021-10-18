@@ -1,16 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 main { 
     background: red;
-    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .box {
-    display: inline;
-    padding-right: 30px;
-    margin-bottom: 10%;
-    position: relative;
+    width: 30%;
+    display: inline-block;
+    margin: 0.3%;
 }
 
-.info {
-    position:absolute;
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*.box {
+    position: relative;
+    padding-right: 30px;
+    margin-bottom: 10%;
+    display: inline-block;
+} **/
+
+.price,.info,.brand {
+    display: block;
 }
 
