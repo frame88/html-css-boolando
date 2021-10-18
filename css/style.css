@@ -22,13 +22,19 @@ img {
     width: 100%;
     height: auto;
 }
-
-.kuore{
+.square {
+    width: 2em;
+    height: 2em;
+    background: white;
     position: absolute;
     right: 0;
     top: 3%;
+    text-align: center;
+    line-height: 2em;
+}
+
+.kuore{
     font-size: 220%;
-    background: white;
 }
 
 .sconto,.eco {
@@ -38,6 +44,7 @@ img {
 
 .sconto {
     background: red;
+    padding: 3px;
     position: absolute;
     bottom: 22%;
     left: 0;
@@ -45,9 +52,10 @@ img {
 
 .eco {
     background: green;
+    padding: 3px;
     position: absolute;
     bottom: 22%;
-    left: 13%;
+    left: 15%;
 }
 
 
@@ -71,6 +79,10 @@ img {
     font-weight: bold;
 }
 
-.box:hover #levisman{
+.box:hover #levisman {
     background-image: url("../img/1b.webp");
+}
+
+.box:hover .sconto{
+    background: yellow;
 }
