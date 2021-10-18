@@ -37,6 +37,9 @@ img {
 }
 .kuore{
     font-size: 150%;
+    border: 0;
+    background: none;
+
 }
 
 .sconto,.eco,.eco2 {
@@ -88,7 +91,5 @@ img {
     text-transform: uppercase;
     font-weight: bold;
 }
-
-
 
 
