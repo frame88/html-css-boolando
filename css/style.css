@@ -23,12 +23,33 @@ img {
     height: auto;
 }
 
+.kuore{
+    position: absolute;
+    right: 0;
+    top: 3%;
+    font-size: 220%;
+    background: white;
+}
+
+.sconto,.eco {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
 .sconto {
     background: red;
     position: absolute;
     bottom: 22%;
     left: 0;
 }
+
+.eco {
+    background: green;
+    position: absolute;
+    bottom: 22%;
+    left: 13%;
+}
+
 
 /*.box {
     position: relative;
@@ -50,3 +71,6 @@ img {
     font-weight: bold;
 }
 
+.box:hover #levisman{
+    background-image: url("../img/1b.webp");
+}
