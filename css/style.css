@@ -33,6 +33,9 @@ img {
     line-height: 2em;
 }
 
+.square:hover .kuore{
+    color: red;
+}
 .kuore{
     font-size: 220%;
 }
@@ -79,10 +82,4 @@ img {
     font-weight: bold;
 }
 
-.box:hover #levisman {
-    background-image: url("../img/1b.webp");
-}
 
-.box:hover .sconto{
-    background: yellow;
-}
